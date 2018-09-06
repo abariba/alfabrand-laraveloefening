@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
-class UniqueController extends Controller
+class CommentsController extends Controller
 {
     //
 }
