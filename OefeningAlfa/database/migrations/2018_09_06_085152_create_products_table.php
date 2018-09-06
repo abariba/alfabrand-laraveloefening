@@ -17,7 +17,7 @@ class CreateProductsTable extends Migration
             $table->increments('productID');
             $table->integer('userID');
             $table->string('body');
-            $table->integer('price');
+            $table->double('price', 5, 2);
             $table->integer('ammount');
             $table->string('name');
             $table->timestamps();

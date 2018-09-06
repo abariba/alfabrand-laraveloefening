@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 
-class commentstableseeder extends Seeder
+class likestableseeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -13,13 +13,13 @@ class commentstableseeder extends Seeder
     {
         for ($i=0; $i < 100; $i++) 
         { 
-	        DB::table('comments')->insert([
-	            'body' => str_random(30),
+	        DB::table('likes')->insert([
+	            'like' => rand(0,1),
 	            'userID' =>rand(0,10),
-	            'productID' =>rand(0,100),
-	            'created_at'=>date('Y-m-d H:i:s'),
-	            'updated_at'=>date('Y-m-d H:i:s'),
+	            'commentID' =>rand(0,100),
+
 	        ]);
 	    }
+
     }
 }
