@@ -15,8 +15,8 @@ class commentstableseeder extends Seeder
         { 
 	        DB::table('comments')->insert([
 	            'body' => str_random(30),
-	            'userID' =>rand(0,10),
-	            'productID' =>rand(0,100),
+	            'userid' =>rand(0,10),
+	            'productid' =>rand(0,100),
 	            'created_at'=>date('Y-m-d H:i:s'),
 	            'updated_at'=>date('Y-m-d H:i:s'),
 	        ]);

@@ -17,7 +17,7 @@ class productstableseeder extends Seeder
 	        DB::table('products')->insert([
 	        	'name' => str_random(30),
 	            'body' => str_random(30),
-	            'userID' =>rand(0,10),
+	            'userid' =>rand(0,10),
 	            'price' =>rand(0.1,30.3),
 	            'ammount' =>rand(0,10),
 	            'created_at'=>date('Y-m-d H:i:s'),

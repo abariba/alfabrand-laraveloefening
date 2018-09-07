@@ -15,8 +15,8 @@ class likestableseeder extends Seeder
         { 
 	        DB::table('likes')->insert([
 	            'like' => rand(0,1),
-	            'userID' =>rand(0,10),
-	            'commentID' =>rand(0,100),
+	            'userid' =>rand(0,10),
+	            'commentid' =>rand(0,100),
 
 	        ]);
 	    }
