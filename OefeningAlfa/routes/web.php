@@ -1,14 +1,17 @@
 <?php
 
 
-<<<<<<< Updated upstream
-Route::get('/', 'PathController@homepage');
-=======
+
+Route::get('/master', 'MainController@homepage');
+
 Route::get('/', function () {
-    return view('welcome');
+    return view('layouts.welcome');
 });
 
-Route::get('/master', function () {
-    return view('resources.views.webshop.master');
-});
->>>>>>> Stashed changes
+
+
+
+
+// Route::get('/master', function () {
+//     return view('master');
+// });

@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use App\MainModel;
 
 class MainController extends Controller
 {
@@ -11,5 +12,4 @@ class MainController extends Controller
 {
   return view('layouts.master');
 }
-
 }
