@@ -10,13 +10,23 @@ class MainController extends Controller
 {
   public function homepage()
 {
-  return view('layouts.master');
+  return view('pages.index');
 }
 
 
-// public function homepage()
-// {
-// return view('layouts.master');
-// }
+public function login()
+{
+return view('pages.login');
+}
+
+public function testing()
+{
+return view('pages.testing');
+}
+
+public function joost()
+{
+return view('pages.joost');
+}
 
 }

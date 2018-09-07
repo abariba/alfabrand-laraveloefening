@@ -4,11 +4,8 @@ Auth::routes();
 
 Route::get('/', 'MainController@homepage');
 
-// Route::get('/', '')
+Route::get('/joris', 'MainController@testing');
 
-// Route::get('/', '')
+Route::get('/jessy', 'MainController@login');
 
-
-// Route::get('/master', function () {
-//     return view('master');
-// });
+Route::get('/joost', 'MainController@joost');
