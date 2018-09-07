@@ -1,5 +1,5 @@
 <?php
-
+Auth::routes();
 
 
 Route::get('/', 'MainController@homepage');
