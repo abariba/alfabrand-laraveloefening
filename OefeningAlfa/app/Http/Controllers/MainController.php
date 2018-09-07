@@ -14,4 +14,9 @@ class MainController extends Controller
 }
 
 
+// public function homepage()
+// {
+// return view('layouts.master');
+// }
+
 }
