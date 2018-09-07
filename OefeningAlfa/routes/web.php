@@ -2,11 +2,8 @@
 
 
 
-Route::get('/master', 'MainController@homepage');
+Route::get('/', 'MainController@homepage');
 
-Route::get('/', function () {
-    return view('layouts.welcome');
-});
 
 
 
