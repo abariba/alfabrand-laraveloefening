@@ -1,13 +1,11 @@
   <nav class="site-header sticky-top py-1">
     <div class="container d-flex flex-column flex-md-row justify-content-between">
-      <a class="py-2" href="#">
 
-      </a>
-      <a class="py-2 d-none d-md-inline-block" href="http://127.0.0.1:8000">home</a>
-      <a class="py-2 d-none d-md-inline-block" href="/joost">Joost</a>
-      <a class="py-2 d-none d-md-inline-block" href="/joris">Joris</a>
-      <a class="py-2 d-none d-md-inline-block" href="/jessy">Jessy</a>
-      <ul class="navbar-nav ml-auto">
+      <a  href="http://127.0.0.1:8000">home</a>
+      <a  href="/joost">Joost</a>
+      <a  href="/joris">Joris</a>
+      <a  href="/jessy">Jessy</a>
+
           <!-- Authentication Links -->
           @guest
               <li class="nav-item">
