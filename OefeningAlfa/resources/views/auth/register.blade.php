@@ -66,7 +66,7 @@
                             <label for="level" class="col-md-4 col-form-label text-md-right">{{ __('level') }}</label>
 
                             <div class="col-md-6">
-                                <input id="level" type="level" class="form-control{{ $errors->has('level') ? ' is-invalid' : '' }}" name="level" value="{{ old('level') }}" required>
+                                <input id="level" type="number" class="form-control{{ $errors->has('level') ? ' is-invalid' : '' }}" name="level" value="{{ old('level') }}" required>
 
                                 @if ($errors->has('level'))
                                     <span class="invalid-feedback" role="alert">
