@@ -5,11 +5,24 @@
     <title>Test2</title>
   </head>
   <body>
-    @include('layouts.navbar')
-    <h1>test</h1>
 
-<p>/joris{id} (1,2,3) voor multilevel</p>
+    @extends('layouts.master')
 
+
+@section('content')
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header">test</div>
+
+              <p>/joris{id} (1,2,3) voor multilevel</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@endsection
 
   </body>
 </html>

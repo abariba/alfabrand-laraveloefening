@@ -19,6 +19,11 @@ public function login()
 return view('pages.login');
 }
 
+public function comment()
+{
+return view('pages.comments');
+}
+
 public function testing($id)
 {
 
