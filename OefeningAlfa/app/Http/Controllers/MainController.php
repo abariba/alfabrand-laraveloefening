@@ -71,6 +71,10 @@ $AddUsers);
 return view('pages.testing',compact ('rights'));
 }
 
+  public function joris()
+{
+return view('pages.joris');
+}
 
 public function joost()
 {
