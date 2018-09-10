@@ -5,6 +5,7 @@
       <a  href="/joost">Joost</a>
       <a  href="/joris">Joris</a>
       <a  href="/jessy">Jessy</a>
+      <a  href="/comments">comments</a>
 
           <!-- Authentication Links -->
           @guest
