@@ -3,7 +3,7 @@
 		@foreach($comments as $comment)
 		<a href="plants={{$comment->id}}"><h2 class="featurette-heading">{{$comment->title}}</h2></a>
 		<p class="cameleon">
-		plant:{{$comment->body}}
+		comment:{{$comment->body}}
 		</p>
         @endforeach
 
