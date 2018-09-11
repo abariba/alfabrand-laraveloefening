@@ -327,7 +327,6 @@ class ComposerStaticInitbf7c0509250ce9ec1ccdac34c02cd83a
     );
 
     public static $classMap = array (
-        'App\\CommentLikesModel' => __DIR__ . '/../..' . '/app/CommentLikesModel.php',
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
         'App\\Exceptions\\Handler' => __DIR__ . '/../..' . '/app/Exceptions/Handler.php',
         'App\\Http\\Controllers\\Auth\\ForgotPasswordController' => __DIR__ . '/../..' . '/app/Http/Controllers/Auth/ForgotPasswordController.php',
@@ -356,8 +355,10 @@ class ComposerStaticInitbf7c0509250ce9ec1ccdac34c02cd83a
         'App\\Providers\\BroadcastServiceProvider' => __DIR__ . '/../..' . '/app/Providers/BroadcastServiceProvider.php',
         'App\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/app/Providers/EventServiceProvider.php',
         'App\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/app/Providers/RouteServiceProvider.php',
-        'App\\RightsModel' => __DIR__ . '/../..' . '/app/RightsModel.php',
         'App\\User' => __DIR__ . '/../..' . '/app/User.php',
+        'App\\comments' => __DIR__ . '/../..' . '/app/comments.php',
+        'App\\likes' => __DIR__ . '/../..' . '/app/likes.php',
+        'App\\users' => __DIR__ . '/../..' . '/app/users.php',
         'BeyondCode\\DumpServer\\DumpServerCommand' => __DIR__ . '/..' . '/beyondcode/laravel-dump-server/src/DumpServerCommand.php',
         'BeyondCode\\DumpServer\\DumpServerServiceProvider' => __DIR__ . '/..' . '/beyondcode/laravel-dump-server/src/DumpServerServiceProvider.php',
         'BeyondCode\\DumpServer\\Dumper' => __DIR__ . '/..' . '/beyondcode/laravel-dump-server/src/Dumper.php',
@@ -3744,6 +3745,7 @@ class ComposerStaticInitbf7c0509250ce9ec1ccdac34c02cd83a
         'phpDocumentor\\Reflection\\Types\\This' => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src/Types/This.php',
         'phpDocumentor\\Reflection\\Types\\Void_' => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src/Types/Void_.php',
         'productstableseeder' => __DIR__ . '/../..' . '/database/seeds/productstableseeder.php',
+        'shoppingcarttableseeder' => __DIR__ . '/../..' . '/database/seeds/shoppingcarttableseeder.php',
         'usertableseeder' => __DIR__ . '/../..' . '/database/seeds/usertableseeder.php',
     );
 

@@ -7,8 +7,12 @@ use Illuminate\Database\Eloquent\Model;
 class users extends Model
 {
 
-  public function rights()
-{
-
-        }
+    public function likes(){
+        return $this->hasMany('App\likes');
     }
+
+    public function comments(){
+        return $this->hasMany('App\comments');
+    }
+    
+}
