@@ -7,6 +7,6 @@ use Illuminate\Database\Eloquent\Model;
 class comments extends Model
 {
     public function likes(){
-    	$this->hasMany('')
+    	$this->hasMany('App\likes');
     }
 }
