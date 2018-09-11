@@ -14,6 +14,7 @@ class commentstableseeder extends Seeder
         for ($i=0; $i < 100; $i++) 
         { 
 	        DB::table('comments')->insert([
+                'title' => str_random(30),
 	            'body' => str_random(30),
 	            'userid' =>rand(0,10),
 	            'productid' =>rand(0,100),

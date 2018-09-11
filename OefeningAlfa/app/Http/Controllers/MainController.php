@@ -26,10 +26,6 @@ return view('pages.comments');
 
 public function testing($id)
 {
-
-
-
-
   $users = users::find($id);
 
     $comments = False;
