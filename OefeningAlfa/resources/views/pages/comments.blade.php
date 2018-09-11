@@ -1,8 +1,11 @@
 @extends('layouts.master')
 
-@foreach($comments as $comment)
-<p>{{$comment->body}}</p>
-@endforeach
+		@foreach($comments as $comment)
+		<a href="plants={{$comment->id}}"><h2 class="featurette-heading">{{$comment->title}}</h2></a>
+		<p class="cameleon">
+		plant:{{$comment->body}}
+		</p>
+        @endforeach
 
 
 
