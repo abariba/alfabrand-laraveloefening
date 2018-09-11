@@ -1,5 +1,9 @@
 @extends('layouts.master')
 
+@foreach($comments as $comment)
+<p>{{$comment->body}}</p>
+@endforeach
+
 
 
 @section('content')

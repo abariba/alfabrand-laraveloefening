@@ -9,7 +9,7 @@ Route::get('/joris', 'MainController@joris');
 
 Route::get('/jessy', 'MainController@login');
 
-Route::get('/comments', 'MainController@comment');
+Route::get('/comments', 'CommentsController@comment');
 
 Route::get('/joost', 'MainController@joost');
 
