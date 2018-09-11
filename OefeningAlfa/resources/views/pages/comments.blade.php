@@ -29,13 +29,23 @@
 </div>
 
 <!-- Database data comments -->
+
+<div class="commentsection">
+
 @foreach($comments as $comment)
 {{$comment->id}}
+<div class="comment-title">
 
 title:{{$comment->title}}<br>
 
+</div>
+<span class="comment-naam">
+
+{{ Auth::user()->name }}</span> &nbsp|&nbsp {{$comment->created_at}}<br>
 comment:{{$comment->body}}<hr>
 </p>
 		@endforeach
+
+</div>
 
 @endsection
