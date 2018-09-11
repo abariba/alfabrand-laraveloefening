@@ -1,26 +1,41 @@
 @extends('layouts.master')
 
-		@foreach($comments as $comment)
-		<a href="plants={{$comment->id}}"><h2 class="featurette-heading">{{$comment->title}}</h2></a>
-		<p class="cameleon">
-		commentje:{{$comment->body}}
-		</p>
-        @endforeach
+
 
 
 
 @section('content')
+<div class="col-sm-8 blog-main">
+<h1>meem Review</h1>
+
+<hr>
+
+    <form method="POST" action="/posts">
+
+    {{ csrf_field() }}
 
 <div class="form-group">
-  <label for="comment"></label>
-  <input type="comment" class="form-control" id="comment" name="comment">
+<label for="title"></label>
+<input type="text" class="form-control" id="title" name="title" placeholder="Title" required>
 </div>
 
-
-<div class="button">
-
-
-  <button type="submit" class="btn btn-primary"></button>
+<div class="form-group">
+<label for="body"></label>
+<textarea id="body" name="body" class="form-control" placeholder="Place a review" required></textarea>
 </div>
+
+<div class="form-group">
+<button type="submit" class="btn btn-primary">Comment</button>
+</div>
+
+<!-- Database data comments -->
+@foreach($comments as $comment)
+{{$comment->id}}
+
+title:{{$comment->title}}<br>
+
+comment:{{$comment->body}}<hr>
+</p>
+		@endforeach
 
 @endsection
