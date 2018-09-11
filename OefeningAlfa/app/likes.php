@@ -11,7 +11,7 @@ class likes extends Model
 	}
 
 	public function likes(){
-    	return $this->belongsTo('App\CommentLikesModel');
+    	return $this->belongsTo('App\likes');
 	}
 
 }
