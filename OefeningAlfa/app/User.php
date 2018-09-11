@@ -9,8 +9,13 @@ class User extends Model implements Authenticatable
     {
         return $this->hasMany('App\comments');
     }
+<<<<<<< HEAD
     public function likes()
     {
+=======
+
+    public function comments(){
+>>>>>>> master
         return $this->hasMany('App\likes');
     }
 }
