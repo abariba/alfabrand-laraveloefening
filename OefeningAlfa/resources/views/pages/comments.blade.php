@@ -6,7 +6,7 @@
 
 @section('content')
 <div class="col-sm-8 blog-main">
-<h1>meem Review</h1>
+<h1>Review </h1>
 
 <hr>
 

@@ -13,4 +13,6 @@ Route::get('/comments', 'CommentsController@comment');
 
 Route::get('/joost', 'MainController@joost');
 
+Route::get('/cart', 'MainController@cart');
+
 //  test

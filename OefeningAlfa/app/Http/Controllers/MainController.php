@@ -24,6 +24,11 @@ public function comment()
 return view('pages.comments');
 }
 
+public function cart()
+{
+return view('pages.cart');
+}
+
 public function testing($id)
 {
   $users = users::find($id);
