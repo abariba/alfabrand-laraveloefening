@@ -30,7 +30,7 @@
 
 <!-- Database data comments -->
 @foreach($comments as $comment)
-{{$comment->id}}
+{{$comment::user}}
 
 title:{{$comment->title}}<br>
 

@@ -3,21 +3,17 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
+use App\User;
 
-class comments extends Model
+class Comments extends Model
 {
     public function likes(){
-    	$this->hasMany('App\likes');
+        $this->hasMany('App\likes');
     }
 
     public function user()
     {
-        return $this->belongsTo('App\User');
+        return $this->belongsTo(User::class);
     }
 
-
-        public function comments()
-    {
-        return $this->belongsTo('App\comments');
-    }
 }
