@@ -61,6 +61,23 @@
                             </div>
                         </div>
 
+
+                        <div class="form-group row">
+                            <label for="level" class="col-md-4 col-form-label text-md-right">{{ __('level') }}</label>
+
+                            <div class="col-md-6">
+                                <input id="level" type="number" class="form-control{{ $errors->has('level') ? ' is-invalid' : '' }}" name="level" value="{{ old('level') }}" required>
+
+                                @if ($errors->has('level'))
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $errors->first('level') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+                        </div>
+
+
+
                         <div class="form-group row mb-0">
                             <div class="col-md-6 offset-md-4">
                                 <button type="submit" class="btn btn-primary">

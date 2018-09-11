@@ -6,7 +6,12 @@ use Illuminate\Database\Eloquent\Model;
 
 class CommentLikesModel extends Model
 {
-	public function likes(){
-    	return $this->hasMany(Likes::class);
+	public function user(){
+    	return $this->belongsTo('App\User');
 	}
+
+	public function likes(){
+    	return $this->belongsTo('App\CommentLikesModel');
+	}
+
 }

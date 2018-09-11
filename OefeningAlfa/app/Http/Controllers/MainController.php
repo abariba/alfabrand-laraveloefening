@@ -19,6 +19,11 @@ public function login()
 return view('pages.login');
 }
 
+public function comment()
+{
+return view('pages.comments');
+}
+
 public function testing($id)
 {
 
@@ -71,6 +76,10 @@ $AddUsers);
 return view('pages.testing',compact ('rights'));
 }
 
+  public function joris()
+{
+return view('pages.joris');
+}
 
 public function joost()
 {

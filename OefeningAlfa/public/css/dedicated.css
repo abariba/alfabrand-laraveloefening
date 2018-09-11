@@ -2,6 +2,13 @@
   max-width: 960px;
 }
 
+
+
+.form-group {
+  width: 40%;
+}
+
+
 /*
  * Custom translucent site header
  */
