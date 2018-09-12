@@ -1,4 +1,14 @@
-<!DOCTYPE html>
+@extends('layouts.master')
+
+@section('content')
+    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
+		<div class="col- col-md">
+			<h1>Heren</h1>
+		</div>
+	</div>
+@endsection
+
+{{-- <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
@@ -25,4 +35,5 @@
 @endsection
 
   </body>
-</html>
+</html> --}}
+

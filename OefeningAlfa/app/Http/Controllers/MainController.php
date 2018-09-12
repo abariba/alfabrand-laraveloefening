@@ -67,14 +67,19 @@ $AddUsers);
 return view('pages.testing',compact ('rights'));
 }
 
-  public function joris()
+  public function heren()
 {
-return view('pages.joris');
+return view('pages.categories.heren');
 }
 
-public function joost()
+public function dames()
 {
-return view('pages.joost');
+return view('pages.categories.dames');
+}
+
+public function kinderen()
+{
+return view('pages.categories.kinderen');
 }
 
 }
