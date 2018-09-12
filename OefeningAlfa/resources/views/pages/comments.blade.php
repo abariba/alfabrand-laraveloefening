@@ -30,9 +30,13 @@
 
 <!-- Database data comments -->
 @foreach($comments as $comment)
-naam:{{$comment->user['name']}}
+<div class="group-title">
 
-title:{{$comment->title}}<br>
+title:{{$comment->title}}
+
+</div>
+
+naam:{{$comment->user['name']}} | {{$comment->created_at}}<br>
 
 comment:{{$comment->body}}<hr>
 </p>
