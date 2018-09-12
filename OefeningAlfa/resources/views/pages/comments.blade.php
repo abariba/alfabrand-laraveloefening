@@ -32,13 +32,13 @@
 @foreach($comments as $comment)
 <div class="group-title">
 
-title:{{$comment->title}}
+{{$comment->title}}
 
 </div>
 
-naam:{{$comment->user['name']}} | {{$comment->created_at}}<br>
+{{$comment->user['name']}} | {{$comment->created_at}}<br>
 
-comment:{{$comment->body}}<hr>
+{{$comment->body}}<hr>
 </p>
 		@endforeach
 

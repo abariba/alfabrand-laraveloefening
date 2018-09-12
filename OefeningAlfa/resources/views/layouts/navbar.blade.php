@@ -19,7 +19,7 @@
                     <a class="nav-link" href="/joris">Joris</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/jessy">Jessy</a>
+                    <a class="nav-link" href="/product/1">ProductTEST</a>
                 </li>
                 <li class="nav-item">
                         <a class="nav-link" href="/comments">Comments</a>
@@ -38,7 +38,7 @@
                                     <a class="dropdown-item" href="/cart">To shoppingcart</a>
                                 </div>
                               </div>
-                    
+
                         <a href="/cart" class="nav-link"></a>
                     </li>
                         <!-- Authentication Links -->
