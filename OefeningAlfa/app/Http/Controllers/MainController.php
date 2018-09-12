@@ -14,11 +14,6 @@ class MainController extends Controller
   return view('pages.index');
 }
 
-public function login()
-{
-return view('pages.login');
-}
-
 public function comment()
 {
 return view('pages.comments');
