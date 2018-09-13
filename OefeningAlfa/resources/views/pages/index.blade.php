@@ -35,8 +35,8 @@
 <!--- Cards -->
 <div class="container-fluid padding">
     <div class="row padding">
-        <div class="col-lg-4 p-3" style="width: 18rem;">
-            <img class="card-img-top" src="img/sale.jpg" alt="Card image cap">
+        <div class="col-lg-4 p-4" style="width: 18rem;">
+            <img class="card-img-top" src="img/redshoes.jpg" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -44,8 +44,8 @@
               </div>
             </div>
 
-        <div class="col-lg-3 p-3" style="width: 18rem;">
-            <img class="card-img-top" src="img/sale.jpg" alt="Card image cap">
+        <div class="col-lg-3 p-4" style="width: 18rem;">
+            <img class="card-img-top" src="img/accesories.jpg" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -53,7 +53,7 @@
               </div>
             </div>
             
-        <div class="col-lg-5 p-3" style="width: 18rem;">
+        <div class="col-lg-5 p-4" style="width: 18rem;">
           <img class="card-img-top" src="img/sale_woman.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Card title</h5>
