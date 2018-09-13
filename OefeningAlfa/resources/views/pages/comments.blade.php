@@ -6,16 +6,15 @@
 
 @section('content')
 <div class="col-sm-8 blog-main">
-<h1>meem Review</h1>
+<h1>Review Products</h1>
 
 <hr>
 
     <form method="POST" action="/comments">
-
     {{ csrf_field() }}
 
 <div class="comment-wrapper">
-
+<!--
 <div class="star-wrapper">
 
     <div class="stars">
@@ -46,7 +45,7 @@
 
     </div>
 
-  </div>
+  </div> -->
 
 
 <div class="form-group">
