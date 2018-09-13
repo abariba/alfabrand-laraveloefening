@@ -15,16 +15,13 @@ class CommentsController extends Controller
 
 
 
-		public function store(Request $request)
+		public function store(Comments $comments)
 	{
+		Comments::create([
 
-			$comment= new Comments();
-			$comment->title= $request['title'];
-			$comment->body= $request['body'];
-	// add other fields
-			$comment->save();
+		'body' => request('body')
 
-			return redirect('/comments');
+	]);
 	}
 
 
