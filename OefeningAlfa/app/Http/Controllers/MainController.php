@@ -64,7 +64,7 @@ $DeleteComments,
 $AddProducts,
 $AddUsers);
 
-return view('pages.testing',compact ('rights'));
+return view('pages.test.testing',compact ('rights'));
 }
 
   public function heren()
@@ -80,6 +80,11 @@ return view('pages.categories.dames');
 public function kinderen()
 {
 return view('pages.categories.kinderen');
+}
+
+  public function cart()
+{
+return view('pages.cart');
 }
 
 }

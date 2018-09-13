@@ -10,10 +10,10 @@
 
 <hr>
 
-    <form method="POST" action="/posts">
+    <form method="POST" action="/comments">
 
     {{ csrf_field() }}
-    
+
 <div class="comment-wrapper">
 
 <div class="star-wrapper">
@@ -42,7 +42,7 @@
 
         <label class="star star-1" for="star-1"></label>
 
-      </form>
+
 
     </div>
 
@@ -63,7 +63,7 @@
 <button type="submit" class="btn btn-primary">Comment</button>
 </div>
 
-
+</form>
 </div>
 
 <!-- Database data comments -->
