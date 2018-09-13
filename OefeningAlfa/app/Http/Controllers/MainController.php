@@ -64,7 +64,7 @@ $DeleteComments,
 $AddProducts,
 $AddUsers);
 
-return view('pages.testing',compact ('rights'));
+return view('pages.test.testing',compact ('rights'));
 }
 
   public function heren()
