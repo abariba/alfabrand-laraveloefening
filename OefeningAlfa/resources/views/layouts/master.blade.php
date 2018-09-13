@@ -20,6 +20,7 @@
 
     <!-- Custom styles for this template -->
     <link href="css\dedicated.css" rel="stylesheet">
+    <link href="css\navbar.css" rel="stylesheet">
   </head>
 
   <body>
