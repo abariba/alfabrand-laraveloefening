@@ -20,7 +20,7 @@
                 </li> --}}
                 <li class="nav-item">
                     <div class="dropdown show">
-                        <a class="btn dropdown-toggle nav-link" href="/dames" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="btn dropdown-toggle " href="/dames" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                           Dames
                         </a>
                       
@@ -33,7 +33,7 @@
                 </li>
                 <li class="nav-item">
                     <div class="dropdown show">
-                        <a class="btn dropdown-toggle nav-link" href="/heren" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="btn dropdown-toggle " href="/heren" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                           Heren
                         </a>
                       
@@ -47,7 +47,7 @@
                 <li class="nav-item">
                     <!--<a class="nav-link" href="/product/1">Kinderen</a>-->
                     <div class="dropdown show">
-                        <a class="btn dropdown-toggle nav-link" href="/kinderen" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <a class="btn dropdown-toggle " href="/kinderen" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                           Kinderen
                         </a>
                       
