@@ -19,14 +19,44 @@
                     <a class="nav-link" href="http://127.0.0.1:8000">Home <span class="sr-only">(current)</span></a>
                 </li> --}}
                 <li class="nav-item">
-                    <a class="nav-link" href="/dames">Dames</a>
+                    <div class="dropdown show">
+                        <a class="btn dropdown-toggle nav-link" href="/dames" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Dames
+                        </a>
+                      
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/heren">Heren</a>
+                    <div class="dropdown show">
+                        <a class="btn dropdown-toggle nav-link" href="/heren" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Heren
+                        </a>
+                      
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </div>
                 </li>
                 <li class="nav-item">
                     <!--<a class="nav-link" href="/product/1">Kinderen</a>-->
-                    <a class="nav-link" href="/kinderen">Kinderen</a>
+                    <div class="dropdown show">
+                        <a class="btn dropdown-toggle nav-link" href="/kinderen" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Kinderen
+                        </a>
+                      
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </div>
                 </li>
                 <li class="nav-item">
                         <a class="nav-link" href="/comments">Test 1</a>
