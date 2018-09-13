@@ -10,7 +10,7 @@
 
 <hr>
 
-    <form method="POST" action="/posts">
+    <form method="POST" action="/comments">
 
     {{ csrf_field() }}
 

@@ -82,4 +82,9 @@ public function kinderen()
 return view('pages.categories.kinderen');
 }
 
+  public function cart()
+{
+return view('pages.cart');
+}
+
 }

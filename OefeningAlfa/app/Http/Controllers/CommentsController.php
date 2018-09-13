@@ -15,17 +15,17 @@ class CommentsController extends Controller
 
 
 
-// 	public function store(Request $request)
-// {
-//
-// $comment= new Comment();
-// 		$comment->title= $request['title'];
-// 		$comment->body= $request['body'];
-// // add other fields
-// 		$comment->save();
-//
-// 		return redirect('/comments');
-// }
+		public function store(Request $request)
+	{
+
+			$comment= new Comments();
+			$comment->title= $request['title'];
+			$comment->body= $request['body'];
+	// add other fields
+			$comment->save();
+
+			return redirect('/comments');
+	}
 
 
 
