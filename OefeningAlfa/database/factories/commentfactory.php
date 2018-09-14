@@ -8,9 +8,9 @@ $factory->define(App\Comment::class, function (Faker $faker) {
         'user_id' => function () {
             return factory(App\User::class)->create()->id;
         },
-        'product_id' => 1
-        //function () {
-        //    return factory(App\plant::class)->create()->id;
-        //}
+        'product_id' =>
+        function () {
+            return factory(App\Products::class)->create()->id;
+        }
     ];
 });
