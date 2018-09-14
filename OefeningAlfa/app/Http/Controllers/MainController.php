@@ -44,4 +44,9 @@ return view('pages.categories.kinderen');
 return view('pages.cart');
 }
 
+public function wishlist()
+{
+return view('pages.wishlist');
+}
+
 }

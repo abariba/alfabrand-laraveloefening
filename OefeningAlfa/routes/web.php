@@ -12,10 +12,14 @@ Route::get('/kinderen', 'MainController@kinderen');
 
 Route::get('/cart',     'MainController@cart');
 
-
+Route::get('/wishlist',  'MainController@wishlist');
 
 
 // test routes
+Route::get('/products', 'ProductsController@getData');
+
+
+
 Route::get('/comments', 'CommentsController@comment'); //Rights and roles
 
 Route::post('/comments','CommentsController@store');   //Places comments in database
