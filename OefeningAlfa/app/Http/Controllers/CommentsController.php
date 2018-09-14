@@ -29,5 +29,13 @@ class CommentsController extends Controller
 	}
 
 
+  public function delete()
+{
+	if (Auth::user() && (Auth::user()->id == $comment->user_id)) {
+	    comment::where('id',$id)->delete();
+	    return back();
+	}else
+	return 'you dont have permission';
+}
 
 }

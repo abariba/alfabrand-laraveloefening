@@ -16,7 +16,9 @@ Route::get('/cart',     'MainController@cart');
 
 
 // test routes
-Route::get('/comments', 'CommentsController@comment');
+Route::get('/comments', 'CommentsController@comment'); //Rights and roles
 
-Route::post('/comments','CommentsController@store');
+Route::post('/comments','CommentsController@store');   //Places comments in database
+
+Route::post('/delete/{{ $comment->id}}','CommentsController@delete');  //Delete comments
 // eind test routes

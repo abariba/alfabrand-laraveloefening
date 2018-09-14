@@ -76,8 +76,12 @@
 
 {{$comment->user['name']}} | {{$comment->created_at}}<br>
 
-{{$comment->body}}<hr>
-</p>
+{{$comment->body}}
+
+@if (Auth::user() && (Auth::user()->id == $comment->user_id))
+    <a href="/delete/{{ $comment->id}}">   <button type="submit" class="btn btn-danger pull-right">Delete</button></a>
+@endif
+<hr>
 		@endforeach
 
 @endsection
