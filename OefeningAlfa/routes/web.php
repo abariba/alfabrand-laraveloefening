@@ -6,7 +6,7 @@ Route::get('/',         'MainController@homepage');
 
 Route::get('/heren',    'MainController@heren');
 
-Route::get('/dames',    'MainController@dames');
+//Route::get('/dames',    'MainController@dames');
 
 Route::get('/kinderen', 'MainController@kinderen');
 
@@ -16,7 +16,7 @@ Route::get('/wishlist',  'MainController@wishlist');
 
 
 // test routes
-Route::get('/products', 'ProductsController@getData');
+Route::get('/dames', 'ProductsController@getData');
 
 
 
