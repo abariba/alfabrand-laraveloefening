@@ -48,9 +48,9 @@
 								</div> <!-- rating-wrap.// -->
 						</figcaption>
 						<div class="bottom-wrap">
-							<a href="" class="btn btn-sm btn-primary float-right">Order Now</a>	
+							
 							<div class="price-wrap h5">
-								<span class="price-new price">{{$row['price']}}</span> <!--<del class="price-old">$1980</del>-->
+								<span class="price-new price">€{{$row['price']}}</span> <!--<del class="price-old">$1980</del>-->
 							</div> <!-- price-wrap.// -->
 						</div> <!-- bottom-wrap.// -->
 					</figure>

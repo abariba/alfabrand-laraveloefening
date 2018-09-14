@@ -20,7 +20,7 @@ class CreateProductsTable extends Migration
             $table->double('price', 5, 2);
             $table->integer('ammount');
             $table->string('name');
-            $table->integer('category')->default(1);
+            $table->integer('category');
             $table->timestamps();
         });
     }

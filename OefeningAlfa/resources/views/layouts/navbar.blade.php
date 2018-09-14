@@ -18,7 +18,7 @@
                         </a>
                       
                         <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="/dames">Dames</a>
                           <a class="dropdown-item" href="#">Another action</a>
                           <a class="dropdown-item" href="#">Something else here</a>
                         </div>
@@ -61,12 +61,15 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
                         <div class="dropdown">
-                                <button class="btn btn-dark dropdown-toggle shopping-cart" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <button class="btn btn-dark  " type="button"   aria-haspopup="true" aria-expanded="false">
                                         <i class="fas fa-heart"></i>
-                                    </button>
+                                </button>
+
                                 <button class="btn btn-dark dropdown-toggle shopping-cart" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     <i class="fas fa-shopping-basket"><span class="badge">0</span></i>
                                 </button>
+
+
                                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                     <a class="dropdown-item" href="/cart">To shoppingcart</a>
                                 </div>
