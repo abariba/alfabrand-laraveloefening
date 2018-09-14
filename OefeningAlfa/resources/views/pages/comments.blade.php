@@ -12,6 +12,7 @@
 
     <form method="POST" action="/comments">
     {{ csrf_field() }}
+    <input type="hidden" name="product_id" value=1>
 
 <div class="comment-wrapper">
 <!--
