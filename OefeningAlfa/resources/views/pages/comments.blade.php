@@ -79,7 +79,7 @@
 {{$comment->body}}
 
 @if (Auth::user() && (Auth::user()->id == $comment->user_id))
-    <a href="/delete/{{ $comment->id}}">   <button type="submit" class="btn btn-danger pull-right">Delete</button></a>
+    <!-- <a href="/comments"> -->  <button type="submit" class="btn btn-danger pull-right">Delete</button></a>
 @endif
 <hr>
 		@endforeach
