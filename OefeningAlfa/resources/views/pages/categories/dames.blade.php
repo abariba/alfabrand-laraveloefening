@@ -5,10 +5,7 @@
 			<h1>Dames</h1>
 		</div>
 
-		{{-- @foreach($data as $product)
-			{{$product}}
-		@endforeach --}}
-			<div class="row">
+			{{-- <div class="row">
 				<div class="col-md-12">
 					<h3>Product Data</h3>
 					<table>
@@ -38,7 +35,8 @@
 						@endforeach
 					</table>
 				</div>
-			</div>
+			</div> --}}
+			
 
 	</div>
 @endsection
