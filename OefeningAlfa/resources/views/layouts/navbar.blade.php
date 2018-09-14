@@ -61,7 +61,7 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
                         <div class="dropdown">
-                                <button class="btn btn-dark dropdown-toggle shopping-cart" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <button class="btn btn-dark wishlist" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         <i class="fas fa-heart"></i>
                                     </button>
                                 <button class="btn btn-dark dropdown-toggle shopping-cart" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
