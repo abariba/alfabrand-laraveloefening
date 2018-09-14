@@ -1,5 +1,5 @@
 <?php
-
+use database\factories\Comment;
 use Illuminate\Database\Seeder;
 
 class commentstableseeder extends Seeder
@@ -11,16 +11,17 @@ class commentstableseeder extends Seeder
      */
     public function run()
     {
-        for ($i=0; $i < 100; $i++) 
-        { 
-	        DB::table('comments')->insert([
-                'title' => str_random(30),
-	            'body' => str_random(30),
-	            'user_id' =>rand(0,10),
-	            'product_id' =>rand(0,100),
-	            'created_at'=>date('Y-m-d H:i:s'),
-	            'updated_at'=>date('Y-m-d H:i:s'),
-	        ]);
-	    }
+        $comments = factory(App\Comment::class, 1000)->create();
+     //    for ($i=0; $i < 100; $i++) 
+     //    { 
+	    //     DB::table('comments')->insert([
+     //            'title' => str_random(30),
+	    //         'body' => str_random(30),
+	    //         'user_id' =>rand(0,10),
+	    //         'product_id' =>rand(0,100),
+	    //         'created_at'=>date('Y-m-d H:i:s'),
+	    //         'updated_at'=>date('Y-m-d H:i:s'),
+	    //     ]);
+	    // }
     }
 }

@@ -3,22 +3,22 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use App\comments;
+use App\comment;
 use Auth;
 
 class CommentsController extends Controller
 {
 	public function comment(){
-		$comments = comments::get();
+		$comments = comment::get();
 		// dd($comment);
 		return view('pages.comments',compact('comments'));
 	}
 
 
 
-		public function store(Comments $comments)
+		public function store(Comment $comments)
 	{
-		$comment = new Comments;
+		$comment = new Comment;
 		$comment->body = request('body');
 		$comment->product_id = request('product_id');
 		$comment->title = request('title');
@@ -32,7 +32,7 @@ class CommentsController extends Controller
 	public function destroy($id)
 	{
 	    $user_id = Auth::user();
-	    $comment = Comments::where('user_id', $id)->where('user_id',$user_id)-get();
+	    $comment = Comment::where('user_id', $id)->where('user_id',$user_id)-get();
 	    $comment->delete();
 }
 

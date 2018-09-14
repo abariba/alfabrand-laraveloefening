@@ -5,7 +5,7 @@ namespace App;
 use Illuminate\Database\Eloquent\Model;
 use App\User;
 
-class Comments extends Model
+class Comment extends Model
 {
     protected $fillable = ['body']; //Onnodig? -Joris
     public function likes(){

@@ -11,20 +11,21 @@ class usertableseeder extends Seeder
      */
     public function run()
     {
-    	for ($i=0; $i < 10; $i++) { 
-        DB::table('users')->insert([
-            'name' => str_random(10),
-            'email' => str_random(10).'@gmail.com',
-            'password' => bcrypt('secret'),
-            'level' =>rand(0,3),
-            'created_at'=>date('Y-m-d H:i:s'),
-            'updated_at'=>date('Y-m-d H:i:s'),
+        $users = factory(App\User::class, 10)->create();
+    	// for ($i=0; $i < 10; $i++) { 
+     //    DB::table('users')->insert([
+     //        'name' => str_random(10),
+     //        'email' => str_random(10).'@gmail.com',
+     //        'password' => bcrypt('secret'),
+     //        'level' =>rand(0,3),
+     //        'created_at'=>date('Y-m-d H:i:s'),
+     //        'updated_at'=>date('Y-m-d H:i:s'),
 
-        ]);
+     //    ]);
 
             
 
      
-    }
+    //}
     }
 }
