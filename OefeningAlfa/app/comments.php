@@ -7,7 +7,7 @@ use App\User;
 
 class Comments extends Model
 {
-     protected $fillable = ['body'];
+    protected $fillable = ['body']; //Onnodig? -Joris
     public function likes(){
         $this->hasMany('App\likes');
     }
