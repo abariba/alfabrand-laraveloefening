@@ -11,7 +11,7 @@ class productstableseeder extends Seeder
      */
     public function run()
     {
-          $comments = factory(App\Products::class, 1000)->create(); 
+          $comments = factory(App\Products::class, 100)->create(); 
      //    for ($i=0; $i < 100; $i++) 
      //    { 
 	    //     DB::table('products')->insert([

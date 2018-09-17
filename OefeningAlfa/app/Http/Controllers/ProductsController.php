@@ -23,4 +23,10 @@ class ProductsController extends Controller
         return view('pages.categories.dames',compact('products'));
 
     }
+
+    function getproduct($id){
+        $product = Products::find($id);
+        //dd($product);
+        return view('pages.categories.showdames',compact('product'));
+    }
 }
