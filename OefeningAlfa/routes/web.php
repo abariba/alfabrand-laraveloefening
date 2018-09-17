@@ -24,5 +24,9 @@ Route::get('/comments', 'CommentsController@comment'); //Rights and roles
 
 Route::post('/comments','CommentsController@store');   //Places comments in database
 
-Route::post('/comments','CommentsController@destroy');  //Delete comments
+Route::post('/comments','CommentsController@getDeleteComment');
+
+Route::post('/comments','CommentsController@postEditComment');
+
+Route::post('/comments','CommentsController@postLikeComment');  //Delete comments
 // eind test routes

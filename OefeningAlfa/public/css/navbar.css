@@ -11,23 +11,3 @@
     vertical-align: middle;
     white-space: nowrap;
 }
-
-.banner{
-  padding-left: 14.3%;
-  padding-right: 14.3%;
-}
-
-.row{
-  padding-left: 15%;
-  padding-right: 15%;
-}
-
-.centered {
-    position: absolute;
-    top: 161.5%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 205%;
-
-}
