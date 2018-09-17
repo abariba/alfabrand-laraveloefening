@@ -52,7 +52,7 @@
                 <a href="#" class="btn btn-primary">Go somewhere</a>
               </div>
             </div>
-            
+
         <div class="col-lg-5 p-4" style="width: 18rem;">
           <img class="card-img-top" src="img/sale_woman.jpg" alt="Card image cap">
             <div class="card-body">
@@ -63,4 +63,49 @@
         </div>
     </div>
   </div>
-@endsection   
+
+
+
+  <div class="container-fluid">
+
+
+        <div class="banner">
+          <a href="#">
+            <p class="centered">SNEAKERS</p>
+          <img class="card-img-top" src="img/putshoeonheadlol.jpeg" alt="Card image cap">
+            <div class="card-body">
+            </div>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-3 p-1">
+            <a href="#">
+              <img class="card-img" src="img/adidas.jpeg" alt="Card image cap">
+                <div class="card-body">
+                </div>
+              </div>
+
+          <div class="col-lg-3 p-1">
+            <a href="#">
+              <img class="card-img" src="img/nike.jpeg" alt="Card image cap">
+                <div class="card-body">
+                </div>
+              </div>
+
+          <div class="col-lg-3 p-1">
+            <a href="#">
+            <img class="card-img" src="img/champion.jpeg" alt="Card image cap">
+              <div class="card-body">
+              </div>
+          </div>
+
+          <div class="col-lg-3 p-1">
+            <a href="#">
+            <img class="card-img" src="img/umbro.jpeg" alt="Card image cap">
+              <div class="card-body">
+              </div>
+          </div>
+      </div>
+    </div>
+@endsection
