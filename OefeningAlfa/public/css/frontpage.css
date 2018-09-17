@@ -1,0 +1,40 @@
+.banner{
+  padding-left: 14.3%;
+  padding-right: 14.3%;
+}
+
+.row{
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+
+.tester {
+  display: inline-flex;
+  padding-left: 13.45%;
+}
+
+
+.centered {
+    position: absolute;
+    top: 216.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 205%;
+
+}
+
+.centered: hover{
+  
+}
+
+.centered2 {
+    position: absolute;
+    top: 49%;
+    left: 340%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 205%;
+
+}

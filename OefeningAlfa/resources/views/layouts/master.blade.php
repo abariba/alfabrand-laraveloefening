@@ -14,14 +14,15 @@
 
     <!-- Font Awesome CSS placed by Sha're -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    
+
     <!-- Star rating style placed by Joris  -->
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 
     <!-- Custom styles for this template -->
     <link href="css\dedicated.css" rel="stylesheet">
+    <link href="css\frontpage.css" rel="stylesheet">
     <link href="css\navbar.css" rel="stylesheet">
-    <link rel="stylesheet" href="css\productcards.css">
+    <link href="css\productcards.css" rel="stylesheet" >
   </head>
 
   <body>

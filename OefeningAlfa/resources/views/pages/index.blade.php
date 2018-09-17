@@ -67,14 +67,24 @@
 
 
   <div class="container-fluid">
+<div class="tester">
+    <div class="col-lg-4 p-1">
+      <a href="#">
+        <img src="img/greyshoes.jpeg" alt="Card image cap">
+        </div>
+        <div class="col-lg-1 p-1">
+          <a href="#">
+            <p class="centered2">LACOSTE BAYLISS 318</p>
+            <img src="img/whiteshoes.jpeg" alt="Card image cap">
+            </div>
+          </div>
 
+</div>
 
         <div class="banner">
           <a href="#">
             <p class="centered">SNEAKERS</p>
           <img class="card-img-top" src="img/putshoeonheadlol.jpeg" alt="Card image cap">
-            <div class="card-body">
-            </div>
         </div>
 
         <div class="row">
@@ -82,29 +92,21 @@
           <div class="col-lg-3 p-1">
             <a href="#">
               <img class="card-img" src="img/adidas.jpeg" alt="Card image cap">
-                <div class="card-body">
-                </div>
               </div>
 
           <div class="col-lg-3 p-1">
             <a href="#">
               <img class="card-img" src="img/nike.jpeg" alt="Card image cap">
-                <div class="card-body">
-                </div>
               </div>
 
           <div class="col-lg-3 p-1">
             <a href="#">
             <img class="card-img" src="img/champion.jpeg" alt="Card image cap">
-              <div class="card-body">
-              </div>
           </div>
 
           <div class="col-lg-3 p-1">
             <a href="#">
             <img class="card-img" src="img/umbro.jpeg" alt="Card image cap">
-              <div class="card-body">
-              </div>
           </div>
       </div>
     </div>
