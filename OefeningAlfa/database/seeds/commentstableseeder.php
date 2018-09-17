@@ -11,7 +11,7 @@ class commentstableseeder extends Seeder
      */
     public function run()
     {
-        $comments = factory(App\Comment::class, 1000)->create();
+        $comments = factory(App\Comment::class, 100)->create();
      //    for ($i=0; $i < 100; $i++) 
      //    { 
 	    //     DB::table('comments')->insert([

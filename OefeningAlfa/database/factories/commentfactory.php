@@ -8,7 +8,7 @@ $factory->define(App\Comment::class, function (Faker $faker) {
         'user_id' => function () {
             return factory(App\User::class)->create()->id;
         },
-        'products_id' => rand(1,100)
+        'products_id' => rand(1,10)
         //function () {
         //    return factory(App\Products::class)->create()->id;
         //}

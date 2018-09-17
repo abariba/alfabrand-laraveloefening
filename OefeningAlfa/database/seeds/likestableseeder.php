@@ -11,12 +11,12 @@ class likestableseeder extends Seeder
      */
     public function run()
     {
-        for ($i=0; $i < 100; $i++) 
+        for ($i=0; $i < 10000; $i++) 
         { 
 	        DB::table('likes')->insert([
 	            'like' => rand(0,1),
 	            'userid' =>rand(0,10),
-	            'commentid' =>rand(0,100),
+	            'comment_id' =>rand(0,100),
 
 	        ]);
 	    }

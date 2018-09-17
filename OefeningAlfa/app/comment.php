@@ -9,7 +9,7 @@ class Comment extends Model
 {
     protected $fillable = ['body']; //Onnodig? -Joris
     public function likes(){
-        $this->hasMany('App\likes');
+        return $this->hasMany('App\likes');
     }
 
     public function user()

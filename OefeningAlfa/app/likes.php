@@ -11,7 +11,11 @@ class likes extends Model
 	}
 
 	public function likes(){
-    	return $this->belongsTo('App\likes');
+    	return $this->belongsTo(comment::class);
+	}
+
+	public function like(){
+		return $this->where("like","=",1);
 	}
 
 }
