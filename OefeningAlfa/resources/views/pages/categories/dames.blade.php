@@ -5,10 +5,7 @@
 			<h1>Dames</h1>
 		</div>
 
-		{{-- @foreach($data as $product)
-			{{$product}}
-		@endforeach --}}
-			<div class="row">
+			{{-- <div class="row">
 				<div class="col-md-12">
 					<h3>Product Data</h3>
 					<table>
@@ -38,7 +35,27 @@
 						@endforeach
 					</table>
 				</div>
+			</div> --}}
+			<div class="row">
+			@foreach($products as $row)
+			<div class="col-md-4">
+					<figure class="card card-product">
+						<div class="img-wrap"><img src="..." alt="Product Image"></div>
+						<figcaption class="info-wrap">
+								<h4 class="title">{{$row['name']}}</h4>
+								<p class="desc">{{$row['body']}}</p>
+								<div class="rating-wrap">
+								</div> <!-- rating-wrap.// -->
+						</figcaption>
+						<div class="bottom-wrap">
+							
+							<div class="price-wrap h5">
+								<span class="price-new price">€{{$row['price']}}</span> <!--<del class="price-old">$1980</del>-->
+							</div> <!-- price-wrap.// -->
+						</div> <!-- bottom-wrap.// -->
+					</figure>
+				</div> <!-- col // -->
+				@endforeach
 			</div>
-
 	</div>
 @endsection
