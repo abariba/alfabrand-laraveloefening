@@ -37,25 +37,45 @@
 				</div>
 			</div> --}}
 			<div class="row">
-			@foreach($products as $row)
+			
 			<div class="col-md-4">
 					<figure class="card card-product">
-						<div class="img-wrap"><img src="{{$row['img']}}" alt="Product Image"></div>
+						<div class="img-wrap"><img src="..." alt="Product Image"></div>
 						<figcaption class="info-wrap">
-								<a href="dames={{$row['id']}}"><h4 class="title">{{$row['name']}}</h4></a>
-								<p class="desc">{{$row['body']}}</p>
+								<a href="dames={{$product->id}}"><h4 class="title">{{$product->name}}</h4></a>
+								<p class="desc">{{$product->body}}</p>
 								<div class="rating-wrap">
 								</div> <!-- rating-wrap.// -->
 						</figcaption>
 						<div class="bottom-wrap">
 							
 							<div class="price-wrap h5">
-								<span class="price-new price">€{{$row['price']}}</span> <!--<del class="price-old">$1980</del>-->
+								<span class="price-new price">€{{$product->price}}</span> <!--<del class="price-old">$1980</del>-->
 							</div> <!-- price-wrap.// -->
+
+
+									<div>
+										<ul class="list-group">
+										@foreach($product->comment as $comment)
+										<hr>
+										<li  class="commentcamo">
+											<strong>
+												{{$comment->created_at->diffForHumans()}}
+											</strong>
+											{{$comment->body}}
+										</li>
+
+
+										@endforeach
+									</ul>
+									</div>
+
+
+
 						</div> <!-- bottom-wrap.// -->
 					</figure>
 				</div> <!-- col // -->
-				@endforeach
+				
 			</div>
 	</div>
 @endsection

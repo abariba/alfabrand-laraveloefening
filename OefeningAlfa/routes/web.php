@@ -17,7 +17,7 @@ Route::get('/wishlist',  'MainController@wishlist');
 
 // test routes
 Route::get('/dames', 'ProductsController@getData');
-
+Route::get('/dames={product}', 'ProductsController@getproduct');
 
 
 Route::get('/comments', 'CommentsController@comment'); //Rights and roles

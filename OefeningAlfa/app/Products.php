@@ -6,9 +6,9 @@ use Illuminate\Database\Eloquent\Model;
 
 class Products extends Model
 {
-    public function Comments()
+    public function Comment()
   {
-      return $this->hasMany(Comments::class);
+      return $this->hasMany(Comment::class);
   }
 
 }
