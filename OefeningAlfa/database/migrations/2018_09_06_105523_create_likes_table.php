@@ -18,6 +18,7 @@ class CreateLikesTable extends Migration
             $table->integer('comment_id');
             $table->integer('userid');
             $table->boolean('like');
+            $table->timestamps();
         });
     }
 

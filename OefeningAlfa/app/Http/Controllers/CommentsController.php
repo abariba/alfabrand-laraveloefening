@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\comment;
+use App\likes;
 use Auth;
 
 class CommentsController extends Controller
@@ -28,6 +29,31 @@ class CommentsController extends Controller
 		$comment->save();
 	}
 
+		public function like(likes $likes){
+			//dd("hoi");
+
+			$like = new likes;
+			$like->userid = Auth::user()->id;
+			$like->comment_id = request('comment_id');
+			$like->like = 1;
+			$like->save();
+			return redirect()->back();
+
+		}
+
+
+		public function dislike(likes $likes){
+			//dd("hoi");
+
+			$like = new likes;
+			$like->userid = Auth::user()->id;
+			$like->comment_id = request('comment_id');
+			$like->like = 0;
+			$like->save();
+			return redirect()->back();
+
+
+		}
 
 	public function getDeleteComment($commentid)
 	{

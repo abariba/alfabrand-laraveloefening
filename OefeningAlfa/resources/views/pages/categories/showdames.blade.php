@@ -90,8 +90,24 @@
 													
 											@endforeach
 											<div>
-												<a href="/dames={{$product->id}}?{{$comment->id}}"><button type="submit" class="btn btn-success pull-right">Like</button></a>
-												<a href="/dames={{$product->id}}?{{$comment->id}}"><button type="submit" class="btn btn-danger pull-right">Dislike</button></a>
+
+
+
+
+											<form method="POST" action="/damesl">
+												    {{ csrf_field() }}
+ 												    <input type="hidden" name="product_id" value={{$product->id}}>
+												    <input type="hidden" name="comment_id" value={{$comment->id}}>
+
+												<a><button type="submit" name='dislike' class="btn btn-success pull-right">Like</button></a>
+											</form>
+											<form method="POST" action="/damesd">
+
+																							    {{ csrf_field() }}
+ 												    <input type="hidden" name="product_id" value={{$product->id}}>
+												    <input type="hidden" name="comment_id" value={{$comment->id}}>
+												<a><button type="submit" name='like' class="btn btn-danger pull-right">Dislike</button></a>
+											
 											</div>
 											
 											opinions given of wich {{$likes_totaal}} likes and {{$dislikes_totaal}}  dislikes.
