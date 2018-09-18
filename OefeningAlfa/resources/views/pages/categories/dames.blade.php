@@ -2,7 +2,7 @@
 @section('content')
     <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
 		<div class="col- col-md">
-			<h1>Dames</h1>
+			<h1>Producten</h1>
 		</div>
 
 			{{-- <div class="row">

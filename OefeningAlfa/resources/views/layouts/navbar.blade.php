@@ -8,10 +8,13 @@
     </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto text-center">
+
+
+                    <li class="nav-item"><a class="nav-link py-2 d-none d-md-inline-block" href="/dames">Producten</a></li>
                 {{-- <li class="nav-item">
                     <a class="nav-link" href="http://127.0.0.1:8000">Home <span class="sr-only">(current)</span></a>
                 </li> --}}
-                <li class="nav-item">
+                {{-- <li class="nav-item">
                     <div class="dropdown show">
                         <a class="btn dropdown-toggle " href="/dames" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                           Dames
@@ -50,7 +53,7 @@
                           <a class="dropdown-item" href="#">Something else here</a>
                         </div>
                     </div>
-                </li>
+                </li> --}}
                 <li class="nav-item">
                         <a class="nav-link" href="/comments">Test 1</a>
                 </li>
