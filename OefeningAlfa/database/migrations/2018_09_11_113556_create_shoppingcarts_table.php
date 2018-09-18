@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateShoppingcartTable extends Migration
+class CreateShoppingcartsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,10 +13,11 @@ class CreateShoppingcartTable extends Migration
      */
     public function up()
     {
-        Schema::create('shoppingcart', function (Blueprint $table) {
+        Schema::create('shoppingcarts', function (Blueprint $table) {
             $table->increments('id');
             $table->integer('product_id');
             $table->integer('user_id');
+            $table->timestamps();
         });
     }
 

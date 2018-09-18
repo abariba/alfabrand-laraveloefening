@@ -52,6 +52,16 @@
 							<div class="price-wrap h5">
 								<span class="price-new price">€{{$product->price}}</span> <!--<del class="price-old">$1980</del>-->
 							</div> <!-- price-wrap.// -->
+
+											<form method="POST" action="/dames">
+												    {{ csrf_field() }}
+ 												    <input type="hidden" name="product_id" value={{$product->id}}>
+												   
+
+												<a><button type="submit" name='dislike' class="btn btn-primary pull-right">Buy</button></a>
+											</form>
+
+
 						</div> <!-- bottom-wrap.// -->
 					</figure>
 				</div> <!-- col // -->

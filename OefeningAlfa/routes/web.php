@@ -18,6 +18,8 @@ Route::get('/wishlist',  'MainController@wishlist');
 // test routes
 Route::get('/dames', 'ProductsController@getData');
 Route::get('/dames={product}', 'ProductsController@getproduct');
+Route::post('/dames', 'ProductsController@product');// add a product to shoppingcart
+
 Route::post('/damesl', 'CommentsController@like');
 Route::post('/damesd', 'CommentsController@dislike');
 

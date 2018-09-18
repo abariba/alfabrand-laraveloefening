@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Products;
+use App\shoppingcart;
+use Auth;
 
 class ProductsController extends Controller
 {
@@ -29,4 +31,22 @@ class ProductsController extends Controller
         //dd($product);
         return view('pages.categories.showdames',compact('product'));
     }
+
+
+
+        public function product(shoppingcart $product){
+        //dd("hoi");
+
+        $product = new shoppingcart;
+        $product->user_id = Auth::user()->id;
+        $product->product_id = request('product_id');
+        //$product->product = 1;
+        $product->save();
+        return redirect()->back();
+
+    }
+
+
+
+
 }
