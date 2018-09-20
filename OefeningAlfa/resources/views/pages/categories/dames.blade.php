@@ -1,13 +1,11 @@
 @extends('layouts.master')
 @section('content')
-    <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
-		<div class="col- col-md">
-			<h1>Producten</h1>
-		</div>
+<div class="bannershop">
+  <h1>INSERT KOEWLE BANNER HIER</h1>
+</div>
 
+    <div class="wrapper">
 			{{-- <div class="row">
-				<div class="col-md-12">
-					<h3>Product Data</h3>
 					<table>
 						<tr>
 							<th>id</th>
@@ -34,27 +32,21 @@
 							</tr>
 						@endforeach
 					</table>
-				</div>
 			</div> --}}
 			<div class="row">
 			@foreach($products as $row)
-			<div class="col-md-4">
 					<figure class="card card-product">
 						<div class="img-wrap"><img src="{{$row['img']}}" alt="Product Image"></div>
 						<figcaption class="info-wrap">
 								<a href="dames={{$row['id']}}"><h4 class="title">{{$row['name']}}</h4></a>
-								<p class="desc">{{$row['body']}}</p>
-								<div class="rating-wrap">
-								</div> <!-- rating-wrap.// -->
+								<!-- <p class="desc">{{$row['body']}}</p> --> <!--body moet anders (tegroot) -->
 						</figcaption>
 						<div class="bottom-wrap">
-							
 							<div class="price-wrap h5">
 								<span class="price-new price">€{{$row['price']}}</span> <!--<del class="price-old">$1980</del>-->
 							</div> <!-- price-wrap.// -->
 						</div> <!-- bottom-wrap.// -->
 					</figure>
-				</div> <!-- col // -->
 				@endforeach
 			</div>
 	</div>
